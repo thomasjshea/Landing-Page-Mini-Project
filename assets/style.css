@@ -46,6 +46,63 @@ header {
     border-bottom: 10px solid #e87722;
 }
 
+footer{
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #e87722;
+    color: white;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 0px;
+    padding: 20px 10px 40px 10px;
+    border-top: 5px solid #e87722;
+    background-color: #0C2340;
+    color: white;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #e87722;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input,
+textarea {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #e87722
+}
+
+textarea{
+    vertical-align: top;
+    height: 60px;
+}
+
+button{
+    margin: 5px 0 0 0;
+    padding: 30px 60px;
+    border-radius: 15px;
+    background-color: #e87722;
+    color: #0C2340;
+}
 /* Class Selectors */
 .text-right{
     text-align: right;
